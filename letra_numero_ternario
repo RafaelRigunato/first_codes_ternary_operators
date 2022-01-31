@@ -1,0 +1,16 @@
+
+int main() {
+    
+    char numero_letra;
+    
+    scanf("%c", &numero_letra);
+    
+    (numero_letra > 47 && numero_letra < 58)? 
+    printf("NUMERO") : (numero_letra > 66 && numero_letra < 91)? 
+    printf("LETRA") : (numero_letra > 96 && numero_letra < 123)?
+    printf("LETRA"): printf("nada");
+    
+    
+    
+    return 0;
+}
