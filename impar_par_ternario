@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main() {
+    
+    int numero;
+    
+    scanf("%d", &numero);
+    
+    (numero % 2 == 1)? printf("IMPAR") : printf("PAR");
+    
+    
+    return 0;
+}
