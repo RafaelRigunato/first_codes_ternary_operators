@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main() {
+    
+    int num_1; //a
+    int num_2; //b
+    int num_3; //c
+    
+    scanf("%d %d %d", &num_1, &num_2, &num_3);
+    
+    (num_1 < num_2 && num_1 < num_3)? printf("%d", num_1) : (num_2 < num_3)? printf("%d", num_2): printf("%d", num_3);
+    
+    
+    return 0;
+}
